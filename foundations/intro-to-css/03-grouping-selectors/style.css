@@ -1,0 +1,18 @@
+/* Grouping Selector was used here */
+/* Note the comma after class1, this is important. */
+/* This allows shared traits between the two selectors */
+.class1,
+.class2 {
+    font-size: 28px;
+    font-family: helvetica, 'Times New Roman', sans-serif;
+}
+
+/* This where unique traits are applied to each class */
+.class1 {
+    background-color: black;
+    color: white;
+}
+
+.class2 {
+    background-color: yellow;
+}
